@@ -26,7 +26,7 @@ var colemakDH = {
   "KeyU": [ "l", "L" ],
   "KeyI": [ "u", "U" ],
   "KeyO": [ "y", "Y" ],
-  "KeyP": [ "'", "\"" ],
+  "KeyP": [ ";", ":" ],
   "KeyA": [ "a", "A" ],
   "KeyS": [ "r", "R" ],
   "KeyD": [ "s", "S" ],
@@ -37,15 +37,18 @@ var colemakDH = {
   "KeyK": [ "e", "E" ],
   "KeyL": [ "i", "I" ],
   "Semicolon": [ "o", "O" ],
-  "Quote": [ ";", ":" ],
-  "KeyZ": [ "z", "Z" ],
-  "KeyX": [ "x", "X" ],
-  "KeyC": [ "c", "C" ],
-  "KeyV": [ "d", "D" ],
+  "Quote": [ "'", "\"" ],
+  "IntlBackslash": [ "z", "Z" ],
+  "KeyZ": [ "x", "X" ],
+  "KeyX": [ "c", "C" ],
+  "KeyC": [ "d", "D" ],
+  "KeyV": [ "v", "V" ],
   "KeyB": [ "v", "V" ],
+  "KeyB": [ "\\", "|" ],
   "KeyN": [ "k", "K" ],
   "KeyM": [ "h", "H" ],
 };
+
 
 chrome.input.ime.onFocus.addListener(
   function(context) {
